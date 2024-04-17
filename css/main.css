@@ -171,8 +171,8 @@ background-color: mediumspringgreen;
                 .carousel-indicators [data-bs-target] {
                     transition: none;
                 }
-                @media (min-width: 176px) {
-                    .card {
+              @media (min-width: 576px) {
+                    .card, .card-body, .card-group, .card-img-top, .card-text, .card-title {
                         display: flex;
                         flex-flow: row wrap;
                     }

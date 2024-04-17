@@ -140,7 +140,60 @@ background-color: mediumspringgreen;
         display: none;
     }
 
+    @media only screen and (max-width: 734px) {
+        section h1 {
+            font-size: 125%
+        }
+        section h2, aside h3 {
+            font-size: 110%;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .carousel-item {
+                transition: none;
+            }
 
-     
-                        
-                            
+            @media (prefers-reduced-motion: reduce) {
+                .carousel-control-prev,
+                .carousel-control-next {
+                    transition: none;
+                }
+        @media only screen and (max-width: 648px) {
+            header img { float: none; }
+            header { text-align: center; }
+            section {
+                float: none;
+                width: 95%;
+            }
+            @media (prefers-reduced-motion: reduce) {
+                .carousel-indicators [data-bs-target] {
+                    transition: none;
+                }
+                @media (min-width: 576px) {
+                    .card {
+                        display: flex;
+                        flex-flow: row wrap;
+                    }
+                    @media (prefers-reduced-motion: no-preference) {
+                        :root {
+                            scroll-behavior: smooth;
+                        }
+
+                    @media (prefers-reduced-motion: reduce) {
+                        .page-link {
+                            transition: none;
+                        }
+
+            @media only screen and (max-width: 414px) {
+                body { font-size: 90%; }
+
+
+                    @media (prefers-reduced-motion: reduce) {
+                        .nav-link {
+                            transition: none;
+                        }
+
+                            @media (min-width: 576px) {
+                                .navbar-expand-sm {
+                                    flex-wrap: nowrap;
+                                    justify-content: flex-start;
+                                }

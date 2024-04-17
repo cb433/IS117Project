@@ -160,7 +160,7 @@ background-color: mediumspringgreen;
                     transition: none;
                 }
         @media only screen and (max-width: 648px) {
-            header image, header h1 image { float: none; }
+            header img, header h1 img { float: none; }
             header { text-align: center; }
             section {
                 float: none;

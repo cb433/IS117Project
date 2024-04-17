@@ -151,9 +151,7 @@ background-color: mediumspringgreen;
                 .carousel-control-next {
                     transition: none;
                 }
-        @media only screen and (max-width: 648px) {
-
-            }
+      
             @media (prefers-reduced-motion: reduce) {
                 .carousel-indicators [data-bs-target] {
                     transition: none;

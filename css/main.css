@@ -161,7 +161,7 @@ background-color: mediumspringgreen;
                     transition: none;
                 }
         @media only screen and (max-width: 648px) {
-            header img { float: none; }
+            header imgage { float: none; }
             header { text-align: center; }
             section {
                 float: none;
@@ -171,7 +171,7 @@ background-color: mediumspringgreen;
                 .carousel-indicators [data-bs-target] {
                     transition: none;
                 }
-                @media (min-width: 376px) {
+                @media (min-width: 176px) {
                     .card {
                         display: flex;
                         flex-flow: row wrap;

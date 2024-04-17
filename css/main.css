@@ -198,13 +198,7 @@ section li {
         font-size: 85%;
     }
 
-@media only screen and (max-width: 648px) {
-    header img { float: none; }
-    header { text-align: center; }
-    section {
-        float: none;
-        width: 95%;
-    }
+@media only screen and (max-width: 648px) 
 
     img { max-width: 30%; }
 

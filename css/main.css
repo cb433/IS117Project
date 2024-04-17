@@ -84,6 +84,7 @@ section li {
 /* styles for navigation */
 #nav_menu {
     grid-area: navi;
+    align:center;
 }
 #nav_menu ul {
     list-style-type: none;
@@ -104,6 +105,7 @@ section li {
     background-color: mediumspringgreen;
     color: black;
     font-weight: bold;
+    align:center;
 }
 
 /* styles for carousel */
@@ -145,8 +147,16 @@ background-color: mediumspringgreen;
         section h2, aside h3 {
             font-size: 110%;
         }
+        @media (prefers-reduced-motion: reduce) {
+            .carousel-item {
+                transition: none;
+            }
 
-
+            @media (prefers-reduced-motion: reduce) {
+                .carousel-control-prev,
+                .carousel-control-next {
+                    transition: none;
+                }
         @media only screen and (max-width: 648px) {
             header img { float: none; }
             header { text-align: center; }
@@ -154,7 +164,27 @@ background-color: mediumspringgreen;
                 float: none;
                 width: 95%;
             }
+            @media (prefers-reduced-motion: reduce) {
+                .carousel-indicators [data-bs-target] {
+                    transition: none;
+                }
+                @media (min-width: 576px) {
+                    .card-group {
+                        display: flex;
+                        flex-flow: row wrap;
+                    }
+                    @media (prefers-reduced-motion: no-preference) {
+                        :root {
+                            scroll-behavior: smooth;
+                        }
 
+                    @media (prefers-reduced-motion: reduce) {
+                        .page-link {
+                            transition: none;
+                        }
+            @media only screen and (max-width: 648px) {
+section card { float: none;
+    width: 95%;}
             img { max-width: 30%; }
 
             #nav_menu {
@@ -167,5 +197,3 @@ background-color: mediumspringgreen;
 
             @media only screen and (max-width: 414px) {
                 body { font-size: 90%; }
-            }
-        }

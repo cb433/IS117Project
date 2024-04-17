@@ -1,3 +1,92 @@
+/*DEVELOPER: Christina Brenckman, IS117-103, Fall, 2024 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* the styles for the elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 98%;                     /* changed from 800 pixels */
+    max-width: 960px;
+    margin: 0 auto;
+
+    background-color:lightgray;
+}
+/* the styles for the header */
+header {
+    padding: 0.5em 0.5em;
+    width:100%;
+    background-image: linear-gradient(
+            greenyellow, mediumspringgreen, springgreen, springgreen 50%, mediumspringgreen 80%, greenyellow 100%);
+}
+header h1 {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+
+    font-family: "Brush Script MT"
+}
+
+
+
+.shadow {
+    text-shadow: 2px 2px 2px greenyellow;
+}
+a:focus, a:hover {
+    font-style: italic;
+   color: mediumspringgreen;
+
+
+
+    /* the styles for the section */
+    section {
+        width: 65.625%;                  /* 525 / 800 X 100 */
+        float: right;
+        padding: 0 2.5% 20px 2.5%; /* 20 / 800 x 100 */
+        background-color: mediumspringgreen;
+    }
+
+}
+
+
+
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    color:black;;
+}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -78,7 +167,11 @@ section h2 {
     padding: .5em 0 .25em 0;
     font-family: Monaco;
 }
-
+section h4{
+    color: darkgreen;
+    font-size: 100%;
+    padding: .5em 0 .25em 0;
+    font-family: Monaco;
 }
 section ul {
     align: center;

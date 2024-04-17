@@ -151,17 +151,16 @@ background-color: mediumspringgreen;
             font-size: 125%
         }
         @media (prefers-reduced-motion: reduce) {
-            .carousel-item {
+            .carousel-item, .carousel-item, .carousel-inner {
                 transition: none;
             }
-
             @media (prefers-reduced-motion: reduce) {
                 .carousel-control-prev,
                 .carousel-control-next {
                     transition: none;
                 }
         @media only screen and (max-width: 648px) {
-            header imgage { float: none; }
+            header image, header h1 image { float: none; }
             header { text-align: center; }
             section {
                 float: none;

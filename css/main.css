@@ -210,9 +210,7 @@ section card { float: none;
                         .nav-link {
                             transition: none;
                         }
-                        @media (prefers-reduced-motion: reduce) {
-                        .navbar-toggler {
-                            transition: none;
+
                         }
                             @media (min-width: 576px) {
                                 .navbar-expand-sm {

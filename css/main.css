@@ -141,26 +141,6 @@ background-color: mediumspringgreen;
     }
 
 
-        @media (prefers-reduced-motion: reduce) {
-            .carousel-item {
-                transition: none;
-            }
-
-            @media (prefers-reduced-motion: reduce) {
-                .carousel-control-prev,
-                .carousel-control-next {
-                    transition: none;
-                }
-      
-            @media (prefers-reduced-motion: reduce) {
-                .carousel-indicators [data-bs-target] {
-                    transition: none;
-                }
-                @media (min-width: 576px) {
-                    .card {
-                        display: flex;
-                        flex-flow: row wrap;
-                    }
-                   
+     
                         
                             

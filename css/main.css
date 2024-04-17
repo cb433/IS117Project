@@ -211,22 +211,22 @@ background-color: mediumspringgreen;
   }
 }
 
-                        /*** Responsive ***/
-@media(max-width: 991px)
-{
-    .wrapper{
-        padding: 25px;
+.card {
+      width: 300px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      padding: 20px;
+      transition: transform 0.3s;
     }
-    .wrapper h1{
-        font-size: 2.5em;
-        font-weight: 600;
+
+    .card:hover {
+      transform: translateY(-5px);
     }
-    .content-box{
-        flex-direction: row;
-        width: 100%;
+
+    @media screen and (max-width: 600px) {
+      .card {
+        width: calc(100% - 40px);
+      }
     }
-    .card{
-        min-width:300px;
-        margin: 10px auto;
-    }
-}

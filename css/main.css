@@ -169,7 +169,7 @@ background-color: mediumspringgreen;
                     transition: none;
                 }
                 @media (min-width: 576px) {
-                    .card-group {
+                    .card {
                         display: flex;
                         flex-flow: row wrap;
                     }
@@ -194,6 +194,33 @@ section card { float: none;
                 display: block;
 
             }
-
             @media only screen and (max-width: 414px) {
                 body { font-size: 90%; }
+                @media only screen and (max-width: 648px) {
+                    body {
+                        grid-template: repeat(4, auto) / 1fr;
+                        grid-template-areas:
+            "head"
+            "navi"
+            "main"
+            "foot";
+                    }
+
+                    @media (prefers-reduced-motion: reduce) {
+                        .nav-link {
+                            transition: none;
+                        }
+                        @media (prefers-reduced-motion: reduce) {
+                        .navbar-toggler {
+                            transition: none;
+                        }
+                            @media (min-width: 576px) {
+                                .navbar-expand-sm {
+                                    flex-wrap: nowrap;
+                                    justify-content: flex-start;
+                                }
+                                @media (min-width: 768px) {
+                                    .navbar-expand-md {
+                                        flex-wrap: nowrap;
+                                        justify-content: flex-start;
+                                    }

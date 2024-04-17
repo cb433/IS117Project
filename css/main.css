@@ -163,20 +163,6 @@ background-color: mediumspringgreen;
                         display: flex;
                         flex-flow: row wrap;
                     }
-                    @media (prefers-reduced-motion: no-preference) {
-                        :root {
-                            scroll-behavior: smooth;
-                        }
-
-    
-            
-            @media only screen and (max-width: 414px) {
-                body { font-size: 90%; }
-
-
-                    @media (prefers-reduced-motion: reduce) {
-                        .nav-link {
-                            transition: none;
-                        }
+                   
                         
                             
